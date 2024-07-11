@@ -1,7 +1,8 @@
-POST http://localhost:3001/notes 
+POST http://localhost:3002/notes/postear
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGQ3YTQwYzg3MzAyNjdkNjViODU3OSIsInVzZXJuYW1lIjoiTmFjaCIsImlhdCI6MTcyMDY5ODI2NH0.Rfc_MNnronnWm4x28ip4Z9vb55hXciqpeEunaCHTmSI
 
 {
-    "content": "esto puta una nueva nota",
+    "content": "esto es un token",
     "important": true
 }
